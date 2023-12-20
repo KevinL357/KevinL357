@@ -11,11 +11,11 @@ class Card{
 public class ClashRoyaleProject {
     public static void main(String[] args) {
 
-        Card[] deck = new Card[4910];
-       for(int i = 0; i < 4910; i++){
+        Card[] deck = new Card[(int)(Math.random() * 100)];
+       for(int i = 0; i < deck.length; i++){
            deck[i] = new Card(i + 1);
        }
-       int c = deck.length;
+        int c = deck.length;
         int elixerSum = 0;
         for(int i = 0; i < c; i++) {
             elixerSum = deck[i].elixerCost + elixerSum;
