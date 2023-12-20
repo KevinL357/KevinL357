@@ -13,11 +13,11 @@ public class ZiyaosCrypticMessage {
 
         String[] ziyaosMessage = new String[4]; 
 
-        ziyaosMessage[0] = "goofy";
+        ziyaosMessage[0] = "extinguish";
         ziyaosMessage[1] = "yourself";
         ziyaosMessage[2] = "right";
         ziyaosMessage[3] = "now!";
-        ziyaosMessage = new String[]{"goofy", "yourself", "right", "now!"};
+        ziyaosMessage = new String[]{"extinguish", "yourself", "right", "now!"};
 
         Scanner gamble = new Scanner(System.in);
         System.out.println("Enter a numner to start your game!");
