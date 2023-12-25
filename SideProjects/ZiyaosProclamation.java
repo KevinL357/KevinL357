@@ -34,14 +34,16 @@ public class ZiyaosProclamation {
                 correct++;
             } else System.out.println("gys");
             
+            System.out.println(correct + " down");
             System.out.println();
             attempts++;
+
 
         }
 
         if (correct == 4)
-            System.out.println("congratulations. You took " + attempts + " attempts.");
+            System.out.println("congratulations. You took " + attempts + " attempts. Here's the actual message: " + ziyaosMessage);
         else
-            System.out.println("Ziyao's message will not be decoded!");
+            System.out.println("Be better! You took too many guesses! Ziyao's message will not be decoded!");
     }
 }

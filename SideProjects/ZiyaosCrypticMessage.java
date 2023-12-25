@@ -4,7 +4,7 @@ public class ZiyaosCrypticMessage {
 
     public static void main(String[] args) {
 
-        new ZiyaosProclamation(1, 10);
+        new ZiyaosProclamation(-14356191, 10374515);
 
     }
 
